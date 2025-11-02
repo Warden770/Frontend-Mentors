@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: hsl(30, 54%, 90%);
+}
+.container {
+  background: white;
+  max-width: 700px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.recipe-img {
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 20px;
+}
+
+.recipe-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.recipe-title {
+  font-size: 2.5rem;
+}
+
+.recipe-description {
+  font-size: 1rem;
+  color: #555;
+}
+
+.recipe-details {
+  background: hsl(335, 50%, 94%);
+  padding: 10px 16px;
+  border-radius: 8px;
+  color: hsl(30, 10%, 34%);
+}
+
+.recipe-details h3 {
+  padding-top: 20px;
+  color: hsl(332, 51%, 32%);
+}
+
+.recipe-details ul li {
+  margin-bottom: 20px;
+}
+
+.ingredients {
+  margin: 20px;
+  color: hsl(30, 10%, 34%);
+  border-bottom: 1px solid black;
+}
+
+.ingredients h3 {
+  font-size: 2rem;
+  color: hsl(14, 45%, 36%);
+}
+
+.recipe-ingredients {
+  margin: 20px;
+}
+
+.recipe-ingredients li {
+  padding: 12px;
+}
+
+.instructions {
+  margin: 20px;
+  color: hsl(30, 10%, 34%);
+  border-bottom: 1px solid black;
+}
+.instructions h3 {
+  font-size: 2rem;
+  color: hsl(14, 45%, 36%);
+}
+
+.recipe-instructions {
+  margin: 20px;
+}
+.recipe-instructions li {
+  padding: 12px;
+}
+
+.nutrition {
+  margin: 20px;
+  color: hsl(30, 10%, 34%);
+}
+
+.nutrition h3 {
+  font-size: 2rem;
+  color: hsl(14, 45%, 36%);
+}
+
+.nutri-description {
+  margin: 20px 0;
+}
+
+.recipe-nutrition {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.nutri-item {
+  display: flex;
+  align-items: center;
+  padding: 18px 0;
+  border-bottom: 1px solid hsl(0, 0%, 90%);
+}
+
+.nutri-name {
+  flex: 1;
+  text-align: left;
+  margin-left: 30px;
+  color: hsl(30, 10%, 34%);
+}
+.nutri-value {
+  flex: 6;
+  text-align: center;
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+/* ...existing code... */
