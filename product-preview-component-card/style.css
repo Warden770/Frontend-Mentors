@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+@media (max-width: 400px) {
+  body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .product-card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 400px;
+    margin: 20px 0;
+  }
+
+  .product-img {
+    width: 100%;
+    display: block;
+  }
+
+  .company-name {
+    font-size: 16px;
+    margin: 20px;
+    color: hsl(0, 0%, 62%);
+    letter-spacing: 5px;
+  }
+
+  .product-name {
+    font-size: 32px;
+    margin: 0 20px;
+    font-weight: 900;
+    color: hsl(212, 21%, 14%);
+  }
+
+  .product-description {
+    font-size: 19px;
+    padding: 20px;
+    color: hsl(228, 12%, 48%);
+  }
+
+  .price-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .current-price {
+    font-size: 32px;
+    color: hsl(158, 36%, 37%);
+    font-weight: 900;
+  }
+
+  .original-price {
+    font-size: 16px;
+    color: hsl(228, 12%, 48%);
+  }
+
+  .add-to-cart-btn {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border: none;
+    width: calc(100% - 40px);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+    margin: 0px 20px 20px 20px;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+  }
+
+  .add-to-cart-btn:hover {
+    background-color: hsl(158, 36%, 25%);
+  }
+
+  .cart-icon {
+    height: 22px;
+  }
+}
+/* max-width: 390px; */
